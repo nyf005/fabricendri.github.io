@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* If the screen size is 768px wide or less */
+@media only screen and (max-width: 768px) {
+	.row { 
+	margin:0
+	}
+	.row [class*="col-"]  {
+		margin-bottom:30px;
+	}
+	.row:last-child [class*="col-"]:last-child{
+		margin-bottom:0;
+	}
+
+  .navbar-brand {
+    font-size: 6vw;
+  }
+
+  .big-label > span {
+    font-size:  16px;
+  }
+}
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+.presentation {
+  margin: 20px;
+  font-family: 'Permanent Marker', cursive;
+  background:transparent;
+  border: none;
+}
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+
+.navbar-brand {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.navbar-toggler {
+  border:none;
+}
+
+.navbar-nav .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.navbar-nav .msg {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: #fc5356;
+  background-color: transparent;
+  font-family: 'Permanent Marker', cursive;
+  margin-right: 10px;
+}
+
+.fab {
+  color: #fff;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.navbar-nav .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.navbar-nav .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.card {
+  background:transparent;
+  text-align: left;
+  height: auto;
+  border: none;
+}
+
+.card-text {
+  font-size: 1.2rem;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  justify-content: center;
+  color: rgba(255, 255, 255, .5);
+  font-weight: 500;
+}
+
+
+/* Curriculum
+---------------------*/
+.resume-box {
+  box-shadow: 0 0 1.25rem rgba(31, 45, 61, 0.08);
+  text-align: left;
+}
+.resume-box ul {
+  margin: 0;
+  padding: 0.5rem;
+  list-style: none;
+}
+.resume-box li {
+  position: relative;
+  padding-left: 3rem;
+  margin: 0 0 30px;
+}
+.resume-box li:last-child {
+  margin-bottom: 0;
+}
+
+.resume-box p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.resume-box li:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    border-left: 1px dashed #fc5356;
+    bottom: 0;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  color: #fc5356;
+  line-height: 40px;
+  background: #ffffff;
+  text-align: center;
+  z-index: 1;
+  border: 1px dashed;
+  border-radius: 50%;
+}
+
+.time {
+  background: #fc5356;
+  color: #ffffff;
+  font-size: 0.7rem;
+  padding: 2px 10px;
+  display: inline-block;
+  margin-bottom: 12px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+h5, .instructor {
+  font-weight: 500;
+  color:antiquewhite;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.detail {
+  font-weight: 500;
+  color: rgba(255, 255, 255, .5);
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.big-label {
+  font-size: 1rem; 
+  font-weight: 600;
+  color: #fc5356;
+  background-color: #fff;
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  box-shadow: 0 0 1.25rem rgba(31, 45, 61, 0.08);
+  border-radius: 25px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+video {
+  max-width: 100%;
+}

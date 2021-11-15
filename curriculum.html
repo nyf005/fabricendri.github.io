@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <title>N.Y.F</title>
+  </head>
+  <body class="text-center">
+    <div class="container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="./index.html">N'DRI Yao Fabrice</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggler"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Accueil</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link active" href="#">Curriculum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./qualifications.html"
+                  >Qualifications</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./hobbies.html">Hobbies</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="small msg" id="msg">Keep in Touch</li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://github.com/nyf005"
+                  onmouseover="changeText('github')"
+                  onmouseleave="resetText()"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.linkedin.com/in/fndri/"
+                  onmouseover="changeText('linkedin')"
+                  onmouseleave="resetText()"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section>
+        <div class="row">
+          <div class="col-lg-6 m-15px-tb">
+            <h4 class="big-label"><span>Education</span></h4>
+            <div class="resume-box">
+              <ul>
+                <li>
+                  <div class="icon">
+                    <i class="fas fa-user-graduate"></i>
+                  </div>
+                  <span class="time">2011 - 2013</span>
+                  <h5>Ecole des Forces Armées</h5>
+                  <p>Formation Initiale d'Officiers</p>
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fas fa-user-graduate"></i>
+                  </div>
+                  <span class="time">2007 - 2010</span>
+                  <h5>Institut Supérieur de Technologie de Cote d'ivoire</h5>
+                  <p>&#9642; Licence Professionnelle Option Génie Logiciel</p>
+                  <p>&#9642; DUT Informatique de Gestion</p>
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fas fa-user-graduate"></i>
+                  </div>
+                  <span class="time">1999 - 2006</span>
+                  <h5>Ecole Militaire Préparatoire Technique de Bingerville</h5>
+                  <p>Baccalauréat F2 (Electronique)</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 m-15px-tb">
+            <h4 class="big-label"><span>Expérience</span></h4>
+            <div class="resume-box">
+              <ul>
+                <li>
+                  <div class="icon">
+                    <i class="fas fa-briefcase"></i>
+                  </div>
+                  <span class="time">Oct. 2015 - Auj.</span>
+                  <h5>
+                    Adjoint au Chef du Bureau des Operations - Marine nationale
+                  </h5>
+                  <p>
+                    &#9642; Planification et conduite des opérations navales.
+                  </p>
+                  <p>&#9642; Développement d'une application intranet.</p>
+                  <p>&#9642; Assistance aux utilisateurs finaux.</p>
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fas fa-briefcase"></i>
+                  </div>
+                  <span class="time">Nov. 2010 - Fev. 2011</span>
+                  <h5>
+                    Developpeur - Banque Centrale des Etats de l'Afrique de
+                    l'Ouest
+                  </h5>
+                  <p>
+                    Développement d’une application pour la gestion des
+                    équipements et des travaux neufs.
+                  </p>
+                  <p>
+                    &#9642; Évaluation du système et proposition de solution.
+                  </p>
+                  <p>&#9642; Developpement de la solution.</p>
+                  <p>
+                    &#9642; Intégration de l'application au système existant.
+                  </p>
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fas fa-briefcase"></i>
+                  </div>
+                  <span class="time">Juil. - Aout 2010</span>
+                  <h5>
+                    Web Developpeur (Stagiaire) - Loterie Nationale de Cote
+                    d'Ivoire
+                  </h5>
+                  <p>
+                    Développement une application web pour le suivi des
+                    activités de la cellule de maintenance.
+                  </p>
+                  <p>&#9642; Conception de la base de données.</p>
+                  <p>&#9642; Programmation de l'application web.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="mastfoot mt-auto">
+        <p>Copyright © 2021 NYF</p>
+      </footer>
+    </div>
+    <!-- Bootstrap core JavaScript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
